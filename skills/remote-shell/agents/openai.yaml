@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remote Shell"
+  short_description: "Run remote commands with automatic connection reuse"
+  default_prompt: "Use $remote-shell to run commands or transfer files on a Windows or Linux host. Hosts in ~/.ssh/config or Windows Credential Manager do not need connect first."

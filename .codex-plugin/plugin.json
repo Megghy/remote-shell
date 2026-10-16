@@ -1,0 +1,36 @@
+{
+  "name": "remote-shell",
+  "version": "0.3.0+codex.20260805090748",
+  "description": "Remote commands and file transfer over reusable WinRM and SSH connections.",
+  "author": {
+    "name": "Megghy"
+  },
+  "license": "Proprietary",
+  "keywords": [
+    "winrm",
+    "ssh",
+    "shell",
+    "windows",
+    "linux",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Remote Shell",
+    "shortDescription": "Automatic WinRM and SSH connections",
+    "longDescription": "Run commands, write or edit remote files, and transfer paths on Windows or Linux hosts while the plugin saves credentials, reuses connections, and recovers from disconnects.",
+    "developerName": "Megghy",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Remote Control"
+    ],
+    "defaultPrompt": [
+      "Connect to a Windows or Linux host and save its credentials.",
+      "Run commands while reusing and restoring the connection automatically.",
+      "Write, edit, upload, or download files."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

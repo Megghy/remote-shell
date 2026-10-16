@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "remote-shell": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "uv",
+        "run",
+        "--frozen",
+        "--no-sync",
+        "--project",
+        ".",
+        "remote-shell-mcp"
+      ]
+    }
+  }
+}
